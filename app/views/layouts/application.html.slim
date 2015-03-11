@@ -1,0 +1,250 @@
+doctype html
+html lang="en"
+  head
+    meta charset="utf-8"
+    meta name="viewport" content="width=device-width, initial-scale=1.0"
+    title UDService
+    = stylesheet_link_tag    'application', media: 'all'
+    = javascript_include_tag 'application'
+    = csrf_meta_tags
+
+body
+  .grid-frame
+    .grid-block.collapse.large-3.medium-1.primary-menu
+      .full-width-panel.black
+        =render partial: "partials/main_menu"
+    .grid-block.large-9.medium-11.small-12.vertical.other-page.ease
+      .grid-content.collapse.small-12.shrink
+        .menu-bar.primary
+          .primary-menu-button.close-primary-menu-button.hide-for-medium-only
+            =image_tag "UD-icon-close.svg"
+          .primary-menu-button.open-primary-menu-button.show-for-medium-only
+            =image_tag "UD-icon-menu.svg"
+      .grid-block
+        .grid-content.large-9.medium-11.small-12.vertical.main-block
+          .grid-block
+            .notes
+              .note-wrap
+                .note-inner
+                  .note
+              .note-wrap
+                .note-inner
+                  .note
+              .note-wrap
+                .note-inner
+                  .note
+          .title-head.grey
+            h4 your best match
+            .items-menu
+              =image_tag "UD-icon-sub menu.svg"
+          /.grid-block
+          .grid-block.small-up-2.medium-up-4.large-up-3
+            .grid-content.collapse.preview-profile-wrap
+              .preview-profile.the-best-match
+                =image_tag "zlata-3.jpg"
+                .information-wrap
+                  .triangle-wrap
+                    .triangle
+                  .information
+                    .title
+                      h4 Zlata
+                    .info
+                      p
+                        |21
+                        span
+                          |&nbsp;|&nbsp;
+                        |Lviv
+                    .actions
+                      .action-button
+                        object data="#{asset_path('UD-icon-heart.svg')}" type="image/svg+xml"
+                      .action-button
+                        object data="#{asset_path('UD-icon-introduction letter.svg')}" type="image/svg+xml"
+                      .action-button
+                        object data="#{asset_path('UD-icon-mail.svg')}" type="image/svg+xml"
+                      .action-button
+                        object data="#{asset_path('UD-icon-chat buble.svg')}" type="image/svg+xml"
+                      .action-button
+                        object data="#{asset_path('UD-icon-camshare.svg')}" type="image/svg+xml"
+                  .status
+
+            .grid-content.collapse.preview-profile-wrap
+              .preview-profile.the-best-match.offline
+                =image_tag "zlata-2.jpg"
+                .information-wrap
+                  .triangle-wrap
+                    .triangle
+                  .information
+                    .title
+                      h4 Zlata
+                    .info
+                      p
+                        |21
+                        span
+                          |&nbsp;|&nbsp;
+                        |Lviv
+                    .actions
+                      .action-button
+                        object data="#{asset_path('UD-icon-heart.svg')}" type="image/svg+xml"
+                      .action-button
+                        object data="#{asset_path('UD-icon-introduction letter.svg')}" type="image/svg+xml"
+                      .action-button
+                        object data="#{asset_path('UD-icon-mail.svg')}" type="image/svg+xml"
+                      .action-button
+                        object data="#{asset_path('UD-icon-chat buble.svg')}" type="image/svg+xml"
+                      .action-button
+                        object data="#{asset_path('UD-icon-camshare.svg')}" type="image/svg+xml"
+                  .status
+
+            .grid-content.collapse.preview-profile-wrap
+              .preview-profile.the-best-match
+                =image_tag "zlata-1.jpg"
+                .information-wrap
+                  .triangle-wrap
+                    .triangle
+                  .information
+                    .title
+                      h4 Zlata
+                    .info
+                      p
+                        |21
+                        span
+                          |&nbsp;|&nbsp;
+                        |Lviv
+                    .actions
+                      .action-button
+                        object data="#{asset_path('UD-icon-heart.svg')}" type="image/svg+xml"
+                      .action-button
+                        object data="#{asset_path('UD-icon-introduction letter.svg')}" type="image/svg+xml"
+                      .action-button
+                        object data="#{asset_path('UD-icon-mail.svg')}" type="image/svg+xml"
+                      .action-button
+                        object data="#{asset_path('UD-icon-chat buble.svg')}" type="image/svg+xml"
+                      .action-button
+                        object data="#{asset_path('UD-icon-camshare.svg')}" type="image/svg+xml"
+                  .status
+
+            .grid-content.collapse.preview-profile-wrap
+              .preview-profile.the-best-match.offline
+                =image_tag "zlata-3.jpg"
+                .information-wrap
+                  .triangle-wrap
+                    .triangle
+                  .information
+                  .status
+            .grid-content.collapse.preview-profile-wrap
+              .preview-profile.the-best-match
+                =image_tag "zlata-1.jpg"
+                .information-wrap
+                  .triangle-wrap
+                    .triangle
+                  .information
+                  .status
+
+            .grid-content.collapse.preview-profile-wrap
+              .preview-profile.the-best-match.offline
+                =image_tag "zlata-3.jpg"
+                .information-wrap
+                  .triangle-wrap
+                    .triangle
+                  .information
+                  .status
+
+        .grid-block.grid-visible.collapse.large-3.medium-1.ordered-list-wrapper
+          .full-width-panel.white-grey
+            .title-head.grey
+              h4.hide-for-medium-only friends online
+              .items-menu
+                a
+                  =image_tag "UD-icon-sub menu.svg"
+                .menu-wrap.close-menu
+                  .menu
+                    .group
+                      .title
+                        strong Display options:
+                      .options
+                        .option
+                          .label
+                            .icon
+                              =image_tag "UD-icon-sort.svg"
+                            span
+                              |Sort by
+                        .option
+                          .label
+                            .icon
+                              =image_tag "UD-icon-fullscreen.svg"
+                            span
+                              |View mode
+                          .input
+                            select.view-mode
+                              option value="minimize" Minimize
+                              option value="fullscreen" Fullscreen
+
+
+            .grid-block
+              section.ordered-list
+                li
+                  a
+                    .one-item
+                      .avatar
+                        .image style="background: url('#{asset_path("zlata-3.jpg")}')no-repeat center center;"
+                      .information.hide-for-medium-only
+                        .title
+                          h4 Zlata
+                        .info
+                          p
+                            |21
+                            span
+                              |&nbsp;|&nbsp;
+                            |Lviv
+                        .about
+                          p Glad to speack with you again some time in the furure. Write me...
+                li
+                  a
+                    .one-item
+                      .avatar
+                        .image style="background: url('#{asset_path("zlata-3.jpg")}')no-repeat center center;"
+                      .information.hide-for-medium-only
+                        .title
+                          h4 Zlata
+                        .info
+                          p
+                            |21
+                            span
+                              |&nbsp;|&nbsp;
+                            |Lviv
+                        .about
+                          p Glad to speack with you again some time in the furure. Write me...
+                li
+                  a
+                    .one-item
+                      .avatar
+                        .image style="background: url('#{asset_path("zlata-3.jpg")}')no-repeat center center;"
+                      .information.hide-for-medium-only
+                        .title
+                          h4 Zlata
+                        .info
+                          p
+                            |21
+                            span
+                              |&nbsp;|&nbsp;
+                            |Lviv
+                        .about
+                          p Glad to speack with you again some time in the furure. Write me...
+                li
+                  a
+                    .one-item
+                      .avatar
+                        .image style="background: url('#{asset_path("zlata-3.jpg")}')no-repeat center center;"
+                      .information.hide-for-medium-only
+                        .title
+                          h4 Zlata
+                        .info
+                          p
+                            |21
+                            span
+                              |&nbsp;|&nbsp;
+                            |Lviv
+                        .about
+                          p Glad to speack with you again some time in the furure. Write me...
+
+

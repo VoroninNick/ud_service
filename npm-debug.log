@@ -1,0 +1,334 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'foundation-cli',
+1 verbose cli   'bower',
+1 verbose cli   'gulp' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 silly cache add args [ 'foundation-cli', null ]
+5 verbose cache add spec foundation-cli
+6 silly cache add args [ 'bower', null ]
+7 verbose cache add spec bower
+8 silly cache add args [ 'gulp', null ]
+9 verbose cache add spec gulp
+10 silly cache add parsed spec { raw: 'foundation-cli',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'foundation-cli',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: '*',
+10 silly cache add   type: 'range' }
+11 verbose addNamed foundation-cli@*
+12 silly addNamed semver.valid null
+13 silly addNamed semver.validRange *
+14 silly addNameRange { name: 'foundation-cli', range: '*', hasData: false }
+15 silly mapToRegistry name foundation-cli
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/foundation-cli
+19 verbose addNameRange registry:https://registry.npmjs.org/foundation-cli not in flight; fetching
+20 silly cache add parsed spec { raw: 'bower',
+20 silly cache add   scope: null,
+20 silly cache add   name: 'bower',
+20 silly cache add   rawSpec: '',
+20 silly cache add   spec: '*',
+20 silly cache add   type: 'range' }
+21 verbose addNamed bower@*
+22 silly addNamed semver.valid null
+23 silly addNamed semver.validRange *
+24 silly addNameRange { name: 'bower', range: '*', hasData: false }
+25 silly mapToRegistry name bower
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/bower
+29 verbose addNameRange registry:https://registry.npmjs.org/bower not in flight; fetching
+30 silly cache add parsed spec { raw: 'gulp',
+30 silly cache add   scope: null,
+30 silly cache add   name: 'gulp',
+30 silly cache add   rawSpec: '',
+30 silly cache add   spec: '*',
+30 silly cache add   type: 'range' }
+31 verbose addNamed gulp@*
+32 silly addNamed semver.valid null
+33 silly addNamed semver.validRange *
+34 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+35 silly mapToRegistry name gulp
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/gulp
+39 verbose addNameRange registry:https://registry.npmjs.org/gulp not in flight; fetching
+40 verbose request uri https://registry.npmjs.org/foundation-cli
+41 verbose request no auth needed
+42 info attempt registry request try #1 at 11:38:30 AM
+43 verbose request id 268b5976c02ee0f0
+44 http request GET https://registry.npmjs.org/foundation-cli
+45 verbose request uri https://registry.npmjs.org/bower
+46 verbose request no auth needed
+47 info attempt registry request try #1 at 11:38:30 AM
+48 http request GET https://registry.npmjs.org/bower
+49 verbose request uri https://registry.npmjs.org/gulp
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 11:38:30 AM
+52 http request GET https://registry.npmjs.org/gulp
+53 http 200 https://registry.npmjs.org/gulp
+54 silly get cb [ 200,
+54 silly get   { date: 'Mon, 09 Mar 2015 09:38:30 GMT',
+54 silly get     server: 'CouchDB/1.6.1 (Erlang OTP/R14B04)',
+54 silly get     etag: '"JNNYN3XHQENL4A9HRA9D0458"',
+54 silly get     'content-type': 'application/json',
+54 silly get     'cache-control': 'max-age=60',
+54 silly get     'content-length': '100390',
+54 silly get     'accept-ranges': 'bytes',
+54 silly get     via: '1.1 varnish',
+54 silly get     age: '35',
+54 silly get     'x-served-by': 'cache-fra1236-FRA',
+54 silly get     'x-cache': 'HIT',
+54 silly get     'x-cache-hits': '1',
+54 silly get     'x-timer': 'S1425893910.693697,VS0,VE0',
+54 silly get     vary: 'Accept',
+54 silly get     'keep-alive': 'timeout=10, max=50',
+54 silly get     connection: 'Keep-Alive' } ]
+55 verbose get saving gulp to /Users/tor/.npm/registry.npmjs.org/gulp/.cache.json
+56 verbose getCacheStat cache creation not in flight; initializing
+57 silly addNameRange number 2 { name: 'gulp', range: '*', hasData: true }
+58 silly addNameRange versions [ 'gulp',
+58 silly addNameRange   [ '0.0.1',
+58 silly addNameRange     '0.0.2',
+58 silly addNameRange     '0.0.3',
+58 silly addNameRange     '0.0.4',
+58 silly addNameRange     '0.0.5',
+58 silly addNameRange     '0.0.7',
+58 silly addNameRange     '0.0.8',
+58 silly addNameRange     '0.0.9',
+58 silly addNameRange     '0.1.0',
+58 silly addNameRange     '0.2.0',
+58 silly addNameRange     '1.0.0',
+58 silly addNameRange     '1.1.0',
+58 silly addNameRange     '1.2.0',
+58 silly addNameRange     '1.2.1',
+58 silly addNameRange     '2.0.0',
+58 silly addNameRange     '2.0.1',
+58 silly addNameRange     '2.1.0',
+58 silly addNameRange     '2.2.0',
+58 silly addNameRange     '2.3.0',
+58 silly addNameRange     '2.4.0',
+58 silly addNameRange     '2.4.1',
+58 silly addNameRange     '2.6.0',
+58 silly addNameRange     '2.6.1',
+58 silly addNameRange     '2.7.0',
+58 silly addNameRange     '3.0.0',
+58 silly addNameRange     '3.1.1',
+58 silly addNameRange     '3.1.2',
+58 silly addNameRange     '3.1.3',
+58 silly addNameRange     '3.1.4',
+58 silly addNameRange     '3.2.0',
+58 silly addNameRange     '3.2.1',
+58 silly addNameRange     '3.2.2',
+58 silly addNameRange     '3.2.3',
+58 silly addNameRange     '3.2.4',
+58 silly addNameRange     '3.2.5',
+58 silly addNameRange     '3.3.0',
+58 silly addNameRange     '3.3.1',
+58 silly addNameRange     '3.3.2',
+58 silly addNameRange     '3.3.4',
+58 silly addNameRange     '3.4.0',
+58 silly addNameRange     '3.5.0',
+58 silly addNameRange     '3.5.1',
+58 silly addNameRange     '3.5.2',
+58 silly addNameRange     '3.5.5',
+58 silly addNameRange     '3.5.6',
+58 silly addNameRange     '3.6.0',
+58 silly addNameRange     '3.6.1',
+58 silly addNameRange     '3.6.2',
+58 silly addNameRange     '3.7.0',
+58 silly addNameRange     '3.8.0',
+58 silly addNameRange     '3.8.1',
+58 silly addNameRange     '3.8.2',
+58 silly addNameRange     '3.8.3',
+58 silly addNameRange     '3.8.4',
+58 silly addNameRange     '3.8.5',
+58 silly addNameRange     '3.8.6',
+58 silly addNameRange     '3.8.7',
+58 silly addNameRange     '3.8.8',
+58 silly addNameRange     '3.8.9',
+58 silly addNameRange     '3.8.10',
+58 silly addNameRange     '3.8.11' ] ]
+59 verbose addNamed gulp@3.8.11
+60 silly addNamed semver.valid 3.8.11
+61 silly addNamed semver.validRange 3.8.11
+62 silly mapToRegistry name gulp
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/gulp
+66 verbose addRemoteTarball https://registry.npmjs.org/gulp/-/gulp-3.8.11.tgz not in flight; adding
+67 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp/-/gulp-3.8.11.tgz',
+67 verbose addRemoteTarball   'd557e0a7283eb4136491969b0497767972f1d28a' ]
+68 info retry fetch attempt 1 at 11:38:30 AM
+69 info attempt registry request try #1 at 11:38:30 AM
+70 http fetch GET https://registry.npmjs.org/gulp/-/gulp-3.8.11.tgz
+71 http 200 https://registry.npmjs.org/foundation-cli
+72 silly get cb [ 200,
+72 silly get   { date: 'Mon, 09 Mar 2015 09:38:30 GMT',
+72 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+72 silly get     etag: '"6T9HUH0RCOSEUWOZ3OX5JJZLP"',
+72 silly get     'content-type': 'application/json',
+72 silly get     'cache-control': 'max-age=60',
+72 silly get     'content-length': '11069',
+72 silly get     'accept-ranges': 'bytes',
+72 silly get     via: '1.1 varnish',
+72 silly get     age: '0',
+72 silly get     'x-served-by': 'cache-fra1242-FRA',
+72 silly get     'x-cache': 'MISS',
+72 silly get     'x-cache-hits': '0',
+72 silly get     'x-timer': 'S1425893910.701178,VS0,VE193',
+72 silly get     vary: 'Accept',
+72 silly get     'keep-alive': 'timeout=10, max=50',
+72 silly get     connection: 'Keep-Alive' } ]
+73 verbose get saving foundation-cli to /Users/tor/.npm/registry.npmjs.org/foundation-cli/.cache.json
+74 http 200 https://registry.npmjs.org/bower
+75 silly get cb [ 200,
+75 silly get   { date: 'Mon, 09 Mar 2015 09:38:30 GMT',
+75 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+75 silly get     etag: '"4OEZYDAG5X46SWRJMVIAO74S8"',
+75 silly get     'content-type': 'application/json',
+75 silly get     'cache-control': 'max-age=60',
+75 silly get     'content-length': '106557',
+75 silly get     'accept-ranges': 'bytes',
+75 silly get     via: '1.1 varnish',
+75 silly get     age: '36',
+75 silly get     'x-served-by': 'cache-fra1233-FRA',
+75 silly get     'x-cache': 'HIT',
+75 silly get     'x-cache-hits': '1',
+75 silly get     'x-timer': 'S1425893910.697056,VS0,VE0',
+75 silly get     vary: 'Accept',
+75 silly get     'keep-alive': 'timeout=10, max=50',
+75 silly get     connection: 'Keep-Alive' } ]
+76 verbose get saving bower to /Users/tor/.npm/registry.npmjs.org/bower/.cache.json
+77 silly addNameRange number 2 { name: 'foundation-cli', range: '*', hasData: true }
+78 silly addNameRange versions [ 'foundation-cli',
+78 silly addNameRange   [ '0.1.0',
+78 silly addNameRange     '0.2.0',
+78 silly addNameRange     '1.0.0-rc.1',
+78 silly addNameRange     '1.0.0',
+78 silly addNameRange     '1.0.1',
+78 silly addNameRange     '1.0.2',
+78 silly addNameRange     '1.0.3',
+78 silly addNameRange     '1.0.4' ] ]
+79 verbose addNamed foundation-cli@1.0.4
+80 silly addNamed semver.valid 1.0.4
+81 silly addNamed semver.validRange 1.0.4
+82 silly addNameRange number 2 { name: 'bower', range: '*', hasData: true }
+83 silly addNameRange versions [ 'bower',
+83 silly addNameRange   [ '0.1.0',
+83 silly addNameRange     '0.1.2',
+83 silly addNameRange     '0.1.3',
+83 silly addNameRange     '0.2.0',
+83 silly addNameRange     '0.3.0',
+83 silly addNameRange     '0.3.1',
+83 silly addNameRange     '0.3.2',
+83 silly addNameRange     '0.4.0',
+83 silly addNameRange     '0.5.0',
+83 silly addNameRange     '0.5.1',
+83 silly addNameRange     '0.6.0',
+83 silly addNameRange     '0.6.1',
+83 silly addNameRange     '0.6.2',
+83 silly addNameRange     '0.6.3',
+83 silly addNameRange     '0.6.4',
+83 silly addNameRange     '0.6.5',
+83 silly addNameRange     '0.6.6',
+83 silly addNameRange     '0.6.7',
+83 silly addNameRange     '0.6.8',
+83 silly addNameRange     '0.7.0',
+83 silly addNameRange     '0.7.1',
+83 silly addNameRange     '0.8.0',
+83 silly addNameRange     '0.8.1',
+83 silly addNameRange     '0.8.2',
+83 silly addNameRange     '0.8.3',
+83 silly addNameRange     '0.8.4',
+83 silly addNameRange     '0.8.5',
+83 silly addNameRange     '0.8.6',
+83 silly addNameRange     '0.9.0',
+83 silly addNameRange     '0.9.1',
+83 silly addNameRange     '0.9.2',
+83 silly addNameRange     '0.10.0',
+83 silly addNameRange     '1.0.0',
+83 silly addNameRange     '1.0.1',
+83 silly addNameRange     '1.0.2',
+83 silly addNameRange     '1.0.3',
+83 silly addNameRange     '1.1.0',
+83 silly addNameRange     '1.1.1',
+83 silly addNameRange     '1.1.2',
+83 silly addNameRange     '1.2.0',
+83 silly addNameRange     '1.2.1',
+83 silly addNameRange     '1.2.2',
+83 silly addNameRange     '1.2.3',
+83 silly addNameRange     '1.2.4',
+83 silly addNameRange     '1.2.5',
+83 silly addNameRange     '1.2.6',
+83 silly addNameRange     '1.2.7',
+83 silly addNameRange     '1.2.8',
+83 silly addNameRange     '1.3.0',
+83 silly addNameRange     '1.3.1',
+83 silly addNameRange     '1.3.2',
+83 silly addNameRange     '1.3.3',
+83 silly addNameRange     '1.3.4',
+83 silly addNameRange     '1.3.5',
+83 silly addNameRange     '1.3.6',
+83 silly addNameRange     '1.3.7',
+83 silly addNameRange     '1.3.8',
+83 silly addNameRange     '1.3.9',
+83 silly addNameRange     '1.3.10',
+83 silly addNameRange     '1.3.11',
+83 silly addNameRange     '1.3.12' ] ]
+84 verbose addNamed bower@1.3.12
+85 silly addNamed semver.valid 1.3.12
+86 silly addNamed semver.validRange 1.3.12
+87 silly mapToRegistry name foundation-cli
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry uri https://registry.npmjs.org/foundation-cli
+91 verbose addRemoteTarball https://registry.npmjs.org/foundation-cli/-/foundation-cli-1.0.4.tgz not in flight; adding
+92 verbose addRemoteTarball [ 'https://registry.npmjs.org/foundation-cli/-/foundation-cli-1.0.4.tgz',
+92 verbose addRemoteTarball   'ed0410e7e8b416248e3045546819afb315a75797' ]
+93 silly mapToRegistry name bower
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry uri https://registry.npmjs.org/bower
+97 verbose addRemoteTarball https://registry.npmjs.org/bower/-/bower-1.3.12.tgz not in flight; adding
+98 verbose addRemoteTarball [ 'https://registry.npmjs.org/bower/-/bower-1.3.12.tgz',
+98 verbose addRemoteTarball   '37de0edb3904baf90aee13384a1a379a05ee214c' ]
+99 info retry fetch attempt 1 at 11:38:30 AM
+100 info attempt registry request try #1 at 11:38:30 AM
+101 http fetch GET https://registry.npmjs.org/foundation-cli/-/foundation-cli-1.0.4.tgz
+102 info retry fetch attempt 1 at 11:38:30 AM
+103 info attempt registry request try #1 at 11:38:30 AM
+104 http fetch GET https://registry.npmjs.org/bower/-/bower-1.3.12.tgz
+105 http fetch 200 https://registry.npmjs.org/gulp/-/gulp-3.8.11.tgz
+106 silly fetchAndShaCheck shasum d557e0a7283eb4136491969b0497767972f1d28a
+107 verbose addTmpTarball /var/folders/b0/xk2t1jh958d_8v0nlzdk3ly40000gn/T/npm-2839-c0ca9aff/registry.npmjs.org/gulp/-/gulp-3.8.11.tgz not in flight; adding
+108 verbose addTmpTarball already have metadata; skipping unpack for gulp@3.8.11
+109 http fetch 200 https://registry.npmjs.org/foundation-cli/-/foundation-cli-1.0.4.tgz
+110 silly fetchAndShaCheck shasum ed0410e7e8b416248e3045546819afb315a75797
+111 http fetch 200 https://registry.npmjs.org/bower/-/bower-1.3.12.tgz
+112 verbose addTmpTarball /var/folders/b0/xk2t1jh958d_8v0nlzdk3ly40000gn/T/npm-2839-c0ca9aff/registry.npmjs.org/foundation-cli/-/foundation-cli-1.0.4.tgz not in flight; adding
+113 verbose addTmpTarball already have metadata; skipping unpack for foundation-cli@1.0.4
+114 silly fetchAndShaCheck shasum 37de0edb3904baf90aee13384a1a379a05ee214c
+115 verbose addTmpTarball /var/folders/b0/xk2t1jh958d_8v0nlzdk3ly40000gn/T/npm-2839-c0ca9aff/registry.npmjs.org/bower/-/bower-1.3.12.tgz not in flight; adding
+116 verbose addTmpTarball already have metadata; skipping unpack for bower@1.3.12
+117 verbose stack Error: EPERM, mkdir '/Users/tor/.npm'
+117 verbose stack     at Error (native)
+118 verbose cwd /Volumes/WORK/Nazariy/Projects/ UD/Project/UD Service
+119 error Darwin 13.0.0
+120 error argv "node" "/usr/local/bin/npm" "install" "-g" "foundation-cli" "bower" "gulp"
+121 error node v0.12.0
+122 error npm  v2.5.1
+123 error path /Users/tor/.npm
+124 error code EPERM
+125 error errno -1
+126 error Error: EPERM, mkdir '/Users/tor/.npm'
+126 error     at Error (native)
+126 error  { [Error: EPERM, mkdir '/Users/tor/.npm'] errno: -1, code: 'EPERM', path: '/Users/tor/.npm' }
+127 error Please try running this command again as root/Administrator.
+128 verbose exit [ -1, true ]
