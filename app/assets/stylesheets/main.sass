@@ -1,6 +1,7 @@
 // Place all the styles related to the main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "mixins"
 
 .full-width-panel
   width: 100%
@@ -28,21 +29,22 @@
   .preview-profile-wrap
     padding: 0 2px 13px 2px
 
-
 .logo
   border-bottom: 1px solid #27272E
   a
     display: block
     height: 122px
     border-bottom: 1px solid #43434D
+    position: relative
   .logo-inner
     width: 215px
     margin: 0 auto
+    +my_vertical_align
     .icon
-      display: inline-block
+      float: left
       width: 80px
     .title
-      display: inline-block
+      float: left
       font:
         family: 'dearjoe_1_msregular'
       color: #D03F4A
@@ -66,26 +68,29 @@ ul.primary-menu
       display: block
       height: 76px
       border-bottom: 1px solid #43434D
-      //text-align: center
+      position: relative
       .pm-item
         width: 215px
         margin: 0 auto
+        height: 100%
       .icon
         width: 75px
-        display: inline-block
+        float: left
+        //margin-top: 8px
       .title
         font:
           size: rem-calc(20.85)
           family: 'Fira Sans', sans-serif
         text-transform: uppercase
         color: #EDF0F1
-        display: inline-block
+        float: left
         position: relative
+        height: 100%
         @media only screen and (max-width: 74.9375rem) and (min-width: 0)
           display: none
         .round-count
           position: absolute
-          top: -10px
+          top: 5px
           right: -30px
           width: 24px
           height: 24px
@@ -107,6 +112,7 @@ ul.primary-menu
         b
           font:
             weight: 400
+          line-height: rem-calc(75)
 .primary-closed
   .close-primary-menu-button
     display: none!important
@@ -136,33 +142,90 @@ ul.primary-menu
     //display: inline-block
     .note-inner
       width: 100%
-      height: 0
-      padding-bottom: 50%
-      position: relative
+      //height: 0
+      //padding-bottom: 45%
+      //position: relative
+      z-index: 11
+      padding: 0 2px
       .note
         background-color: #E2E2AE
-        position: absolute
-        left: 0
-        top: 0
-        right: 0
-        bottom: 0
-
+        //position: absolute
+        //left: 2px
+        //top: 0
+        //right: 2px
+        //bottom: 0
+        padding-top: 17px
+        .info-block
+          padding-bottom: 35px
+        .navigation-block
+          display: none
         &:hover
-          padding-bottom: 75%
+          //padding-bottom: 75%
+          .navigation-block
+            display: block
+        .avatar
+          width: 40%
+          float: left
+          .image
+            max-width: 100%
+            width: 100%
+            height: 0
+            padding-bottom: 100%
+            overflow: hidden
+            -webkit-background-size: cover !important
+            -moz-background-size: cover !important
+            -o-background-size: cover !important
+            background-size: cover !important
+            margin: 0 auto
+        .information
+          width: 60%
+          float: left
+          strong
+            font:
+              size: rem-calc(18)
+              family: 'Fira Sans', sans-serif
+              weight: 400
+            color: #D03F4A
+            line-height: rem-calc(21.6)
+        a.ud-button
+          font:
+            size: rem-calc(18)
+            family: 'Fira Sans', sans-serif
+            weight: 400
+          color: #EDF0F1
+          line-height: rem-calc(26.46)
+          height: rem-calc(26.46)
+          display: inline-block
+          width: 100%
+          text:
+            transform: uppercase
+            align: center
+          background-color: #D03F4A
+        .navigation-block
+          position: relative
+          width: 100%
+          .buttons
+            //position: absolute
 
 .preview-profile
   position: relative
+  overflow: hidden
+  &:hover
+    .information-wrap
+      bottom: 0
+    .information
+      height: 100px !important
   .information-wrap
     position: absolute
     left: 0
     right: 0
-    bottom: 0
+    bottom: -38px
+    +transition(bottom, .5s, ease)
     .triangle-wrap
       position: relative
       overflow: hidden
       height: 10px
       width: 100%
-      //box-shadow: 1px 1px 0px 1px #2E2E36
       opacity: .8
       .triangle
         border: 10px solid #2E2E36
@@ -198,10 +261,11 @@ ul.primary-menu
           background: #2E2E36
 
     .information
-      height: 100px
+      height: 63px
       width: 100%
       background: rgba(46, 46, 54, .80)
       padding: 0 14px
+      +transition(height, .4s, ease)
       .title
         h4
           font:
@@ -376,10 +440,22 @@ section.ordered-list
       display: block
       height: 107px
       border-bottom: 1px solid #fff
+    .one-item
+      padding-top: 20px
     .avatar
       width: 48px
       height: 48px
       float: left
+      position: relative
+      margin-top: 4px
+      &:before
+        display: block
+        content: ''
+        position: absolute
+        bottom: -2px
+        height: 2px
+        background-color: #96D03F
+        width: 100%
       .image
         max-width: 100%
         width: 100%
@@ -420,7 +496,9 @@ section.ordered-list
             family: 'Fira Sans', sans-serif
           line-height: rem-calc(14.4)
           color: #BEC3C7
-
+.main-block
+  .title-head
+    margin-top: 10px
 .grid-visible
   overflow: visible !important
 .close-menu
