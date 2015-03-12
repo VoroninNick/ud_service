@@ -28,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.sass">
+      <file leaf-file-name="main.sass.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.sass.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11608094" vertical-offset="4226" max-vertical-offset="11985">
-              <caret line="255" column="66" selection-start-line="255" selection-start-column="66" selection-end-line="255" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.5248447" vertical-offset="904" max-vertical-offset="12563">
+              <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -67,9 +67,11 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/main.coffee" />
         <option value="$PROJECT_DIR$/app/views/partials/_ordered_people_list.html.slim" />
         <option value="$PROJECT_DIR$/app/views/partials/_main_menu.html.slim" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.slim" />
         <option value="$PROJECT_DIR$/app/views/partials/_main_block.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.slim" />
+        <option value="$PROJECT_DIR$/app/assets/images/UD-icon-diamond-white.svg" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/main.sass" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/main.sass.erb" />
       </list>
     </option>
   </component>
@@ -485,7 +487,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.sass">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.sass.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1115" max-vertical-offset="7616">
           <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
@@ -498,86 +500,88 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="3213">
           <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
           <folding>
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="html lang=&quot;en&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="head" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="meta charset=&quot;utf-8&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="title UDService" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="= stylesheet_link_tag    'application', media: 'all'" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="= javascript_include_tag 'application'" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="= csrf_meta_tags" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="body" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-frame" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-block" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-block.collapse.large-3.medium-1.primary-menu.black.noscroll" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".full-width-panel" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=render partial: &quot;partials/main_menu&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-block.large-9.medium-11.small-12.vertical.other-page" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".gird-block" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-block.collapse.shrink" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".menu-bar.primary" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".primary-menu-button.close-primary-menu-button.hide-for-medium-only" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-close.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".primary-menu-button.open-primary-menu-button.show-for-medium-only" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-menu.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".header-navigation" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="section" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="li.search" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-search.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="li.notification" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="div" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-notifications.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".round-count data-count=&quot;28&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="li.credits" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="li.profile-avatar" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".image style=&quot;background: url('#{asset_path(&quot;user_avatar_default.png&quot;)}')no-repeat center center;&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="li.profile-info" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="div" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="p welcome back," />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="strong Gregory" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="br" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="a Sign out" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-block.page-wrap" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-container.large-9.medium-11.small-12.vertical.main-block" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-content" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=render partial: &quot;partials/main_block&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-container.collapse.large-3.medium-1.ordered-list-wrapper.grid-visible.white-grey" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".full-width-panel" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".title-head.grey" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-content" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".wrap" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="h4.hide-for-medium-only friends online" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".items-menu" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-sub menu.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".menu-wrap.close-menu" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".menu" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".group" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".title" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="strong Display options:" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".options" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".option" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".label" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".icon" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-sort.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="span" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="|Sort by" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".option" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".label" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".icon" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-fullscreen.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="span" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="|View mode" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".input" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="select.view-mode" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="option value=&quot;fullscreen&quot; Fullscreen" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="option value=&quot;minimize&quot; Minimize" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-block" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-content" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=render partial: &quot;partials/ordered_people_list&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="html lang=&quot;en&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="head" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="meta charset=&quot;utf-8&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="title UDService" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="= stylesheet_link_tag    'application', media: 'all'" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="= javascript_include_tag 'application'" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="= csrf_meta_tags" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="body" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-frame" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-block" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-block.collapse.large-3.medium-1.primary-menu.black.noscroll" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".full-width-panel" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=render partial: &quot;partials/main_menu&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-block.large-9.medium-11.small-12.vertical.other-page" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".gird-block" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-block.collapse.shrink" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".menu-bar.primary" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".primary-menu-button.close-primary-menu-button.hide-for-medium-only" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-close.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".primary-menu-button.open-primary-menu-button.show-for-medium-only" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-menu.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".header-navigation" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="section" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="li.search" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-search.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="li.notification" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="div" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-notifications.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".round-count data-count=&quot;28&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="li.credits" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="div 2999" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="li.profile-avatar" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".image style=&quot;background: url('#{asset_path(&quot;user_avatar_default.png&quot;)}')no-repeat center center;&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="li.profile-info" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="div" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="p welcome back," />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="strong Gregory" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="br" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="a Sign out" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-block.page-wrap" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-container.large-9.medium-11.small-12.vertical.main-block" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-content" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=render partial: &quot;partials/main_block&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-container.collapse.large-3.medium-1.ordered-list-wrapper.grid-visible.white-grey" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".full-width-panel" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".title-head.grey" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-content" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".wrap" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="h4.hide-for-medium-only friends online" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".items-menu" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-sub menu.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".menu-wrap.close-menu" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".menu" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".group" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".title" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="strong Display options:" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".options" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".option" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".label" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".icon" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-sort.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="span" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="|Sort by" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".option" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".label" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".icon" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-fullscreen.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="span" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="|View mode" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".input" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="select.view-mode" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="option value=&quot;fullscreen&quot; Fullscreen" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="option value=&quot;minimize&quot; Minimize" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-block" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-content" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=render partial: &quot;partials/ordered_people_list&quot;" />
           </folding>
         </state>
       </provider>
@@ -587,86 +591,88 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="71" max-vertical-offset="1700">
           <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
           <folding>
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="html lang=&quot;en&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="head" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="meta charset=&quot;utf-8&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="title UDService" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="= stylesheet_link_tag    'application', media: 'all'" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="= javascript_include_tag 'application'" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="= csrf_meta_tags" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="body" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-frame" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-block" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-block.collapse.large-3.medium-1.primary-menu.black.noscroll" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".full-width-panel" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=render partial: &quot;partials/main_menu&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-block.large-9.medium-11.small-12.vertical.other-page" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".gird-block" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-block.collapse.shrink" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".menu-bar.primary" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".primary-menu-button.close-primary-menu-button.hide-for-medium-only" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-close.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".primary-menu-button.open-primary-menu-button.show-for-medium-only" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-menu.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".header-navigation" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="section" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="li.search" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-search.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="li.notification" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="div" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-notifications.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".round-count data-count=&quot;28&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="li.credits" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="li.profile-avatar" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".image style=&quot;background: url('#{asset_path(&quot;user_avatar_default.png&quot;)}')no-repeat center center;&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="li.profile-info" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="div" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="p welcome back," />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="strong Gregory" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="br" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="a Sign out" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-block.page-wrap" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-container.large-9.medium-11.small-12.vertical.main-block" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-content" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=render partial: &quot;partials/main_block&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-container.collapse.large-3.medium-1.ordered-list-wrapper.grid-visible.white-grey" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".full-width-panel" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".title-head.grey" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-content" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".wrap" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="h4.hide-for-medium-only friends online" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".items-menu" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-sub menu.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".menu-wrap.close-menu" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".menu" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".group" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".title" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="strong Display options:" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".options" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".option" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".label" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".icon" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-sort.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="span" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="|Sort by" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".option" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".label" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".icon" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-fullscreen.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="span" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="|View mode" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".input" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="select.view-mode" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="option value=&quot;fullscreen&quot; Fullscreen" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="option value=&quot;minimize&quot; Minimize" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-block" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-content" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=render partial: &quot;partials/ordered_people_list&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="html lang=&quot;en&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="head" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="meta charset=&quot;utf-8&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="title UDService" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="= stylesheet_link_tag    'application', media: 'all'" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="= javascript_include_tag 'application'" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="= csrf_meta_tags" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="body" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-frame" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-block" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-block.collapse.large-3.medium-1.primary-menu.black.noscroll" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".full-width-panel" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=render partial: &quot;partials/main_menu&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-block.large-9.medium-11.small-12.vertical.other-page" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".gird-block" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-block.collapse.shrink" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".menu-bar.primary" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".primary-menu-button.close-primary-menu-button.hide-for-medium-only" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-close.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".primary-menu-button.open-primary-menu-button.show-for-medium-only" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-menu.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".header-navigation" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="section" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="li.search" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-search.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="li.notification" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="div" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-notifications.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".round-count data-count=&quot;28&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="li.credits" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="div 2999" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="li.profile-avatar" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".image style=&quot;background: url('#{asset_path(&quot;user_avatar_default.png&quot;)}')no-repeat center center;&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="li.profile-info" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="div" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="p welcome back," />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="strong Gregory" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="br" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="a Sign out" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-block.page-wrap" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-container.large-9.medium-11.small-12.vertical.main-block" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-content" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=render partial: &quot;partials/main_block&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-container.collapse.large-3.medium-1.ordered-list-wrapper.grid-visible.white-grey" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".full-width-panel" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".title-head.grey" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-content" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".wrap" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="h4.hide-for-medium-only friends online" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".items-menu" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-sub menu.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".menu-wrap.close-menu" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".menu" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".group" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".title" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="strong Display options:" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".options" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".option" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".label" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".icon" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-sort.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="span" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="|Sort by" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".option" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".label" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".icon" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-fullscreen.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="span" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="|View mode" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".input" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="select.view-mode" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="option value=&quot;fullscreen&quot; Fullscreen" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="option value=&quot;minimize&quot; Minimize" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-block" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-content" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=render partial: &quot;partials/ordered_people_list&quot;" />
           </folding>
         </state>
       </provider>
@@ -1004,179 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/partials/_main_menu.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3757764" vertical-offset="436" max-vertical-offset="1428">
-          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="38" />
-          <folding>
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".logo" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".logo-inner" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".icon" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="= image_tag &quot;UD-logo-diamond.png&quot;" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".title" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="b" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="|Ukrainian" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="br" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="|Diamonds" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="br" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="|Find yours.." />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".clearfix" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="ul.primary-menu" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="li" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".pm-item" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".icon" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="= image_tag &quot;UD-home.png&quot;" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".title" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="b home page" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".clearfix" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="li" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".pm-item" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".icon" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="= image_tag &quot;UD-logo-search-girls.png&quot;" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".title" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="b search girls" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".clearfix" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="li" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".pm-item" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".icon" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="= image_tag &quot;UD-favorites.png&quot;" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".title" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="b favorites" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".clearfix" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="li" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".pm-item" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".icon" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="= image_tag &quot;UD-mail-box.png&quot;" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".title" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="b mail Box" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".round-count data-count=&quot;28&quot;" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".clearfix" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="li" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".pm-item" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".icon" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="= image_tag &quot;UD-logo-live-chat.png&quot;" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".title" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="b live chat" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="li" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".pm-item" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".icon" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="= image_tag &quot;UD-cam-share.png&quot;" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".title" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="b cam share" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="li" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".pm-item" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".icon" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="= image_tag &quot;UD-tripadvisor.png&quot;" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".title" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="b trip advisor" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="li" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".pm-item" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".icon" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="= image_tag &quot;UD-settings.png&quot;" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".title" />
-            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="b settings" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6128364" vertical-offset="258" max-vertical-offset="1666">
-          <caret line="50" column="72" selection-start-line="50" selection-start-column="72" selection-end-line="50" selection-end-column="72" />
-          <folding>
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="html lang=&quot;en&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="head" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="meta charset=&quot;utf-8&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="title UDService" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="= stylesheet_link_tag    'application', media: 'all'" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="= javascript_include_tag 'application'" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="= csrf_meta_tags" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="body" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-frame" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-block" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-block.collapse.large-3.medium-1.primary-menu.black.noscroll" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".full-width-panel" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=render partial: &quot;partials/main_menu&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-block.large-9.medium-11.small-12.vertical.other-page" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".gird-block" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-block.collapse.shrink" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".menu-bar.primary" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".primary-menu-button.close-primary-menu-button.hide-for-medium-only" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-close.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".primary-menu-button.open-primary-menu-button.show-for-medium-only" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-menu.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".header-navigation" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="section" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="li.search" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-search.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="li.notification" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="div" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-notifications.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".round-count data-count=&quot;28&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="li.credits" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="li.profile-avatar" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".image style=&quot;background: url('#{asset_path(&quot;user_avatar_default.png&quot;)}')no-repeat center center;&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="li.profile-info" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="div" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="p welcome back," />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="strong Gregory" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="br" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="a Sign out" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-block.page-wrap" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-container.large-9.medium-11.small-12.vertical.main-block" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-content" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=render partial: &quot;partials/main_block&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-container.collapse.large-3.medium-1.ordered-list-wrapper.grid-visible.white-grey" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".full-width-panel" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".title-head.grey" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-content" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".wrap" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="h4.hide-for-medium-only friends online" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".items-menu" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="a" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-sub menu.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".menu-wrap.close-menu" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".menu" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".group" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".title" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="strong Display options:" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".options" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".option" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".label" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".icon" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-sort.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="span" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="|Sort by" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".option" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".label" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".icon" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-fullscreen.svg&quot;" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="span" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="|View mode" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".input" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="select.view-mode" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="option value=&quot;fullscreen&quot; Fullscreen" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="option value=&quot;minimize&quot; Minimize" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-block" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder=".grid-content" />
-            <marker date="1426168720000" expanded="true" signature="-1:-1" placeholder="=render partial: &quot;partials/ordered_people_list&quot;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/partials/_main_block.html.slim">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.035196688" vertical-offset="17" max-vertical-offset="4556">
@@ -1437,10 +1270,193 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.sass">
+    <entry file="file://$PROJECT_DIR$/app/views/partials/_main_menu.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11608094" vertical-offset="4226" max-vertical-offset="11985">
-          <caret line="255" column="66" selection-start-line="255" selection-start-column="66" selection-end-line="255" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.79813665" vertical-offset="28" max-vertical-offset="1428">
+          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="38" />
+          <folding>
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".logo" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".logo-inner" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".icon" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="= image_tag &quot;UD-logo-diamond.png&quot;" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".title" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="b" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="|Ukrainian" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="br" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="|Diamonds" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="br" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="|Find yours.." />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".clearfix" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="ul.primary-menu" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="li" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".pm-item" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".icon" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="= image_tag &quot;UD-home.png&quot;" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".title" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="b home page" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".clearfix" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="li" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".pm-item" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".icon" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="= image_tag &quot;UD-logo-search-girls.png&quot;" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".title" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="b search girls" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".clearfix" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="li" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".pm-item" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".icon" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="= image_tag &quot;UD-favorites.png&quot;" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".title" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="b favorites" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".clearfix" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="li" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".pm-item" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".icon" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="= image_tag &quot;UD-mail-box.png&quot;" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".title" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="b mail Box" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".round-count data-count=&quot;28&quot;" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".clearfix" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="li" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".pm-item" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".icon" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="= image_tag &quot;UD-logo-live-chat.png&quot;" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".title" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="b live chat" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="li" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".pm-item" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".icon" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="= image_tag &quot;UD-cam-share.png&quot;" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".title" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="b cam share" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="li" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".pm-item" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".icon" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="= image_tag &quot;UD-tripadvisor.png&quot;" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".title" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="b trip advisor" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="li" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".pm-item" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".icon" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="= image_tag &quot;UD-settings.png&quot;" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder=".title" />
+            <marker date="1426157563000" expanded="true" signature="-1:-1" placeholder="b settings" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4047619" vertical-offset="221" max-vertical-offset="1683">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding>
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="html lang=&quot;en&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="head" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="meta charset=&quot;utf-8&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="title UDService" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="= stylesheet_link_tag    'application', media: 'all'" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="= javascript_include_tag 'application'" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="= csrf_meta_tags" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="body" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-frame" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-block" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-block.collapse.large-3.medium-1.primary-menu.black.noscroll" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".full-width-panel" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=render partial: &quot;partials/main_menu&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-block.large-9.medium-11.small-12.vertical.other-page" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".gird-block" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-block.collapse.shrink" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".menu-bar.primary" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".primary-menu-button.close-primary-menu-button.hide-for-medium-only" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-close.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".primary-menu-button.open-primary-menu-button.show-for-medium-only" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-menu.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".header-navigation" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="section" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="li.search" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-search.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="li.notification" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="div" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-notifications.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".round-count data-count=&quot;28&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="li.credits" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="div 2999" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="li.profile-avatar" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".image style=&quot;background: url('#{asset_path(&quot;user_avatar_default.png&quot;)}')no-repeat center center;&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="li.profile-info" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="div" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="p welcome back," />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="strong Gregory" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="br" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="a Sign out" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-block.page-wrap" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-container.large-9.medium-11.small-12.vertical.main-block" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-content" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=render partial: &quot;partials/main_block&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-container.collapse.large-3.medium-1.ordered-list-wrapper.grid-visible.white-grey" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".full-width-panel" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".title-head.grey" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-content" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".wrap" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="h4.hide-for-medium-only friends online" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".items-menu" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="a" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-sub menu.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".menu-wrap.close-menu" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".menu" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".group" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".title" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="strong Display options:" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".options" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".option" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".label" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".icon" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-sort.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="span" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="|Sort by" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".option" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".label" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".icon" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=image_tag &quot;UD-icon-fullscreen.svg&quot;" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="span" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="|View mode" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".input" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="select.view-mode" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="option value=&quot;fullscreen&quot; Fullscreen" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="option value=&quot;minimize&quot; Minimize" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-block" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder=".grid-content" />
+            <marker date="1426173831000" expanded="true" signature="-1:-1" placeholder="=render partial: &quot;partials/ordered_people_list&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/UD-icon-diamond-white.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13709678" vertical-offset="0" max-vertical-offset="992">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.sass.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5248447" vertical-offset="904" max-vertical-offset="12563">
+          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
           <folding />
         </state>
       </provider>

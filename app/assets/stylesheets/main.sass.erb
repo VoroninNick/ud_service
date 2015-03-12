@@ -80,6 +80,38 @@
                   line-height: rem-calc(24)
                   width: 24px
                   text-align: center
+        &.credits
+          margin-left: 1rem
+          a
+            div
+              +my_vertical_align
+              height: 24px
+              background-color: #D03F4A
+              font:
+                size: rem-calc(18)
+                family: 'Fira Sans', sans-serif
+              line-height: rem-calc(25)
+              color: #EDF0F1
+              padding-left: 30px
+              padding-right: 10px
+              border-radius: 12px 0 0 12px
+              right: -3px
+              position: relative
+              &:before
+                display: block
+                content: ''
+                background-image: url('<%=asset_path("UD-icon-diamond-white.svg")%>')
+                background-size: 100%
+                background-repeat: no-repeat
+                position: absolute
+                width: 16px
+                height: 16px
+                top: 6px
+                left: 8px
+
+
+
+
         &.profile-avatar
           width: 66px
           a
@@ -98,6 +130,7 @@
               border-radius: 50%
               +my_vertical_align
         &.profile-info
+          padding-left: 8px
           div
             +my_vertical_align
           p
@@ -123,6 +156,7 @@
             color: #D03F4A
             display: inline-block
             height: auto
+
 
 .best-match-wrap
   padding-top: 25px
