@@ -1,82 +1,99 @@
-.grid-content
+.grid-block.notes
   .grid-content
-    .grid-block
-      .grid-content.large-4.medium-4.collapse.note-wrap
-        .note-inner
-          .note
-            .grid-block.info-block
-              .grid-content
-                .avatar
-                  .grid-content
-                    .image style="background: url('#{asset_path("zlata-3.jpg")}')no-repeat center center;"
-                .information
-                  strong Anastasia
-                  p
-                    |Today
-                    br
-                    |is her Birhday!
-            .grid-block
-              .grid-content
+    .grid-content
+      .grid-block.margin-none
+        .grid-content.large-4.medium-4.collapse.note-wrap
+          .note-inner
+            .note
+              .grid-block.info-block
+                .grid-content
+                  .avatar
+                    .grid-content
+                      .image style="background: url('#{asset_path("zlata-3.jpg")}')no-repeat center center;"
+                  .information
+                    strong Anastasia
+                    p
+                      |Today
+                      br
+                      |is her Birhday!
+              .grid-block
                 .grid-content
                   .navigation-block
-                    .buttons
-                      a.ud-button CONGRATULATE HER!
-                      .grit-content
-                        p
-                          |or
-                          a Dismiss
+                    .grid-content
+                      .buttons
+                        a.ud-button CONGRATULATE HER!
+                        .grit-content
+                          p
+                            |or&nbsp;
+                            a Dismiss
 
-      .grid-content.large-4.medium-4.collapse.note-wrap
-        .note-inner
-          .note
-            .grid-block.info-block
-              .grid-content
-                .avatar
-                  .grid-content
-                    .image style="background: url('#{asset_path("zlata-3.jpg")}')no-repeat center center;"
-                .information
-                  strong Anastasia
-                  p
-                    |Today
-                    br
-                    |is her Birhday!
-            .grid-block.navigation-block
-              .grid-content
+        .grid-content.large-4.medium-4.collapse.note-wrap
+          .note-inner
+            .note
+              .grid-block.info-block
                 .grid-content
-                  a.ud-button CONGRATULATE HER!
+                  .avatar
+                    .grid-content
+                      .image style="background: url('#{asset_path("zlata-3.jpg")}')no-repeat center center;"
+                  .information
+                    strong Anastasia
+                    p
+                      |Today
+                      br
+                      |is her Birhday!
+              .grid-block
+                .grid-content
+                  .navigation-block
+                    .grid-content
+                      .buttons
+                        a.ud-button CONGRATULATE HER!
+                        .grit-content
+                          p
+                            |or&nbsp;
+                            a Dismiss
 
-      .grid-content.large-4.collapse.note-wrap
-        .note-inner
-          .note
-            .grid-block.info-block
-              .grid-content
-                .avatar
-                  .grid-content
-                    .image style="background: url('#{asset_path("zlata-3.jpg")}')no-repeat center center;"
-                .information
-                  strong Anastasia
-                  p
-                    |Today
-                    br
-                    |is her Birhday!
-            .grid-block.navigation-block
-              .grid-content
+        .grid-content.large-4.medium-4.collapse.note-wrap
+          .note-inner
+            .note
+              .grid-block.info-block
                 .grid-content
-                  a.ud-button CONGRATULATE HER!
+                  .avatar
+                    .grid-content
+                      .image style="background: url('#{asset_path("zlata-3.jpg")}')no-repeat center center;"
+                  .information
+                    strong Anastasia
+                    p
+                      |Today
+                      br
+                      |is her Birhday!
+              .grid-block
+                .grid-content
+                  .navigation-block
+                    .grid-content
+                      .buttons
+                        a.ud-button CONGRATULATE HER!
+                        .grit-content
+                          p
+                            |or&nbsp;
+                            a Dismiss
+
+
 
 .grid-block.shrink
   .grid-content
     .title-head.grey
-      h4 your best match
-      .items-menu
-        =image_tag "UD-icon-sub menu.svg"
+      .grid-content
+        .wrap
+          h4 your best match
+          .items-menu
+            =image_tag "UD-icon-sub menu.svg"
 
 .grid-content.white-grey
   .grid-content
     .grid-block.small-up-2.medium-up-4.large-up-3.best-match-wrap
       .grid-content.collapse.preview-profile-wrap
         .preview-profile.the-best-match
-          =image_tag "zlata-3.jpg"
+          .image style="background: url('#{asset_path("zlata-3.jpg")}')no-repeat center center;"
           .information-wrap
             .triangle-wrap
               .triangle
@@ -104,7 +121,7 @@
 
       .grid-content.collapse.preview-profile-wrap
         .preview-profile.the-best-match.offline
-          =image_tag "zlata-2.jpg"
+          .image style="background: url('#{asset_path("zlata-2.jpg")}')no-repeat center center;"
           .information-wrap
             .triangle-wrap
               .triangle
@@ -132,7 +149,35 @@
 
       .grid-content.collapse.preview-profile-wrap
         .preview-profile.the-best-match
-          =image_tag "zlata-1.jpg"
+          .image style="background: url('#{asset_path("zlata-1.jpg")}')no-repeat center center;"
+          .information-wrap
+            .triangle-wrap
+              .triangle
+            .information
+              .title
+                h4 Zlata
+              .info
+                p
+                  |21
+                  span
+                    |&nbsp;|&nbsp;
+                  |Lviv
+              .actions
+                .action-button
+                  object data="#{asset_path('UD-icon-heart.svg')}" type="image/svg+xml"
+                .action-button
+                  object data="#{asset_path('UD-icon-introduction letter.svg')}" type="image/svg+xml"
+                .action-button
+                  object data="#{asset_path('UD-icon-mail.svg')}" type="image/svg+xml"
+                .action-button
+                  object data="#{asset_path('UD-icon-chat buble.svg')}" type="image/svg+xml"
+                .action-button
+                  object data="#{asset_path('UD-icon-camshare.svg')}" type="image/svg+xml"
+            .status
+
+      .grid-content.collapse.preview-profile-wrap
+        .preview-profile.the-best-match
+          .image style="background: url('#{asset_path("zlata-4.jpg")}')no-repeat center center;"
           .information-wrap
             .triangle-wrap
               .triangle
@@ -160,26 +205,59 @@
 
       .grid-content.collapse.preview-profile-wrap
         .preview-profile.the-best-match.offline
-          =image_tag "zlata-3.jpg"
+          .image style="background: url('#{asset_path("zlata-5.jpg")}')no-repeat center center;"
           .information-wrap
             .triangle-wrap
               .triangle
             .information
-            .status
-      .grid-content.collapse.preview-profile-wrap
-        .preview-profile.the-best-match
-          =image_tag "zlata-1.jpg"
-          .information-wrap
-            .triangle-wrap
-              .triangle
-            .information
+              .title
+                h4 Zlata
+              .info
+                p
+                  |21
+                  span
+                    |&nbsp;|&nbsp;
+                  |Lviv
+              .actions
+                .action-button
+                  object data="#{asset_path('UD-icon-heart.svg')}" type="image/svg+xml"
+                .action-button
+                  object data="#{asset_path('UD-icon-introduction letter.svg')}" type="image/svg+xml"
+                .action-button
+                  object data="#{asset_path('UD-icon-mail.svg')}" type="image/svg+xml"
+                .action-button
+                  object data="#{asset_path('UD-icon-chat buble.svg')}" type="image/svg+xml"
+                .action-button
+                  object data="#{asset_path('UD-icon-camshare.svg')}" type="image/svg+xml"
             .status
 
       .grid-content.collapse.preview-profile-wrap
-        .preview-profile.the-best-match.offline
-          =image_tag "zlata-3.jpg"
+        .preview-profile.the-best-match
+          .image style="background: url('#{asset_path("zlata-6.jpg")}')no-repeat center center;"
           .information-wrap
             .triangle-wrap
               .triangle
             .information
+              .title
+                h4 Zlata
+              .info
+                p
+                  |21
+                  span
+                    |&nbsp;|&nbsp;
+                  |Lviv
+              .actions
+                .action-button
+                  object data="#{asset_path('UD-icon-heart.svg')}" type="image/svg+xml"
+                .action-button
+                  object data="#{asset_path('UD-icon-introduction letter.svg')}" type="image/svg+xml"
+                .action-button
+                  object data="#{asset_path('UD-icon-mail.svg')}" type="image/svg+xml"
+                .action-button
+                  object data="#{asset_path('UD-icon-chat buble.svg')}" type="image/svg+xml"
+                .action-button
+                  object data="#{asset_path('UD-icon-camshare.svg')}" type="image/svg+xml"
             .status
+    .grid-block.shrink
+      /.git-content
+      a.more Show more

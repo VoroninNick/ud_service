@@ -23,11 +23,122 @@
   height: 80px
   background-color: #BEC3C7 !important
   width: 100%
+  position: relative
+  .header-navigation
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    section
+      height: 100%
+      padding-right: 35px
+      li
+        display: inline-block
+        background: transparent
+        float: left
+        height: 100%
+        a
+          position: relative
+          display: block
+          height: 100%
+        &.search
+          width: 40px
+          a
+            img
+              width: 65%
+              +my_vertical_align
+        &.notification
+          width: 55px
+          padding: 0
+          border-radius: 0
+          display: block
+          margin: 0
+          position: static
+          a
+            div
+              width: 47%
+              margin: 0 auto
+              +my_vertical_align
+              .round-count
+                position: absolute
+                top: 0
+                right: -15px
+                width: 24px
+                height: 24px
+                border-radius: 50%
+                background-color: #D03F4A
+                &:before
+                  position: absolute
+                  top: 0
+                  left: 0
+                  display: inline-block
+                  content: attr(data-count)
+                  color: #fff
+                  font:
+                    size: rem-calc(14)
+                    family: 'Fira Sans', sans-serif
+                  line-height: rem-calc(24)
+                  width: 24px
+                  text-align: center
+        &.profile-avatar
+          width: 66px
+          a
+            .image
+              max-width: 100%
+              width: 100%
+              height: 0
+              padding-bottom: 100%
+              overflow: hidden
+              -webkit-background-size: cover !important
+              -moz-background-size: cover !important
+              -o-background-size: cover !important
+              background-size: cover !important
+              margin: 0 auto
+
+              border-radius: 50%
+              +my_vertical_align
+        &.profile-info
+          div
+            +my_vertical_align
+          p
+            font:
+              size: rem-calc(12)
+              family: 'Fira Sans', sans-serif
+            line-height: rem-calc(14.4)
+            color: #2E3E51
+            margin: 0
+            padding: 0
+          strong
+            font:
+              size: rem-calc(20.85)
+              family: 'Fira Sans', sans-serif
+              weight: 500
+            line-height: rem-calc(25.03)
+            color: #2E3E51
+          a
+            font:
+              size: rem-calc(10)
+              family: 'Fira Sans', sans-serif
+            line-height: rem-calc(12)
+            color: #D03F4A
+            display: inline-block
+            height: auto
 
 .best-match-wrap
   padding-top: 25px
   .preview-profile-wrap
     padding: 0 2px 13px 2px
+  .image
+    max-width: 100%
+    width: 100%
+    height: 0
+    padding-bottom: 133%
+    overflow: hidden
+    -webkit-background-size: cover !important
+    -moz-background-size: cover !important
+    -o-background-size: cover !important
+    background-size: cover !important
+    margin: 0 auto
 
 .logo
   border-bottom: 1px solid #27272E
@@ -136,33 +247,77 @@ ul.primary-menu
   width: 30px
   height: 30px
 .notes
-  //width: 100%
   .note-wrap
-    //width: 100%
-    //display: inline-block
     .note-inner
       width: 100%
-      //height: 0
-      //padding-bottom: 45%
-      //position: relative
-      z-index: 11
       padding: 0 2px
+      &:hover
+        .note
+          -webkit-box-shadow: -2px 9px 5px -1px rgba(0, 0, 0, 0.5)
+          -moz-box-shadow: -2px 9px 5px -1px rgba(0, 0, 0, 0.5)
+          box-shadow: -2px 9px 5px -1px rgba(0, 0, 0, 0.5)
+        .navigation-block
+          overflow: visible !important
+        .buttons
+          -webkit-box-shadow: -3px 4px 5px -3px rgba(0,0,0,0.5)
+          -moz-box-shadow: -3px 4px 5px -3px rgba(0,0,0,0.5)
+          box-shadow: -3px 4px 5px -3px rgba(0,0,0,0.5)
       .note
         background-color: #E2E2AE
-        //position: absolute
-        //left: 2px
-        //top: 0
-        //right: 2px
-        //bottom: 0
         padding-top: 17px
+        position: relative
+        &:before
+          width: 0
+          height: 0
+          border-style: solid
+          border-width: 0 15px 15px 0
+          border-color: transparent #fcfcfc transparent transparent
+          display: block
+          content: ''
+          position: absolute
+          top: 0
+          right: 0
+        &:after
+          width: 0
+          height: 0
+          width: 0
+          height: 0
+          border-style: solid
+          border-width: 15px 0 0 15px
+          border-color: transparent transparent transparent #efecce
+          display: block
+          content: ''
+          position: absolute
+          top: 0
+          right: 0
+
         .info-block
-          padding-bottom: 35px
+          padding-bottom: 1rem
         .navigation-block
-          display: none
-        &:hover
-          //padding-bottom: 75%
-          .navigation-block
-            display: block
+          position: relative
+          overflow: hidden
+          z-index: 11
+          .buttons
+            position: absolute
+            left: 0
+            top: 0
+            right: 0
+            background-color: #E2E2AE
+            padding: 0 1rem
+            p
+              padding-left: 1rem
+              font:
+                size: rem-calc(12)
+                family: 'Fira Sans', sans-serif
+                weight: 400
+              color: #2E3E51
+              line-height: rem-calc(14.4)
+              margin: 0
+              padding-top: 10px
+              padding-bottom: 13px
+              a
+                color: #D03F4A
+
         .avatar
           width: 40%
           float: left
@@ -170,7 +325,7 @@ ul.primary-menu
             max-width: 100%
             width: 100%
             height: 0
-            padding-bottom: 100%
+            padding-bottom: 120%
             overflow: hidden
             -webkit-background-size: cover !important
             -moz-background-size: cover !important
@@ -187,25 +342,29 @@ ul.primary-menu
               weight: 400
             color: #D03F4A
             line-height: rem-calc(21.6)
+          p
+            font:
+              family: 'dearjoe_1_msregular'
+              size: rem-calc(33.53)
+            color: #2E3E51
+            line-height: rem-calc(22)
+            margin: 0
+            margin-top: 1rem
+            padding: 0
         a.ud-button
           font:
             size: rem-calc(18)
             family: 'Fira Sans', sans-serif
             weight: 400
           color: #EDF0F1
-          line-height: rem-calc(26.46)
-          height: rem-calc(26.46)
+          line-height: rem-calc(35)
+          height: rem-calc(35)
           display: inline-block
           width: 100%
           text:
             transform: uppercase
             align: center
           background-color: #D03F4A
-        .navigation-block
-          position: relative
-          width: 100%
-          .buttons
-            //position: absolute
 
 .preview-profile
   position: relative
@@ -356,10 +515,12 @@ ul.primary-menu
         border-color: transparent transparent #D03F4A transparent
 
 .title-head
-  padding-left: 30px
+  //padding-left: 30px
   height: 38px
   position: relative
   width: 100%
+  .wrap
+    position: relative
   h4
     margin: 0
     padding: 0
@@ -372,7 +533,7 @@ ul.primary-menu
   .items-menu
     position: absolute
     top: 6px
-    right: 30px
+    right: 0
     bottom: 6px
     cursor: pointer
     width: 38px
@@ -499,6 +660,20 @@ section.ordered-list
 .main-block
   .title-head
     margin-top: 10px
+  a.more
+    font:
+      size: rem-calc(18)
+      family: 'Fira Sans', sans-serif
+    line-height: rem-calc(35)
+    color: #EDF0F1
+    background-color: #48647C
+    height: 35px
+    text-transform: uppercase
+    padding: 0 17px
+    margin: 10px auto 40px auto
+
+
+
 .grid-visible
   overflow: visible !important
 .close-menu
@@ -518,3 +693,7 @@ section.ordered-list
   .main-block
     flex: 0 0 91.66667% !important
     max-width: 91.66667% !important
+
+.margin-none
+  margin-left: 0 !important
+  margin-right: 0 !important
