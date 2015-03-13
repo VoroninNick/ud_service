@@ -12,7 +12,7 @@
   //right: 0
   //bottom: 0
 .black
-  background-color: #2E2E36
+  background-color: #2E2E36 !important
 .white
   background-color: #fff
 .white-grey
@@ -24,6 +24,7 @@
   background-color: #BEC3C7 !important
   width: 100%
   position: relative
+  margin-bottom: 40px
   .header-navigation
     position: absolute
     top: 0
@@ -114,6 +115,7 @@
 
         &.profile-avatar
           width: 66px
+          position: relative
           a
             .image
               max-width: 100%
@@ -129,6 +131,9 @@
 
               border-radius: 50%
               +my_vertical_align
+          &.close
+            .user-profile-wrap
+              +element-invisible
         &.profile-info
           padding-left: 8px
           div
@@ -163,6 +168,7 @@
   margin-bottom: 13px
   .preview-profile-wrap
     padding: 0 2px 13px 2px
+    //@include grid-block(4)
   .image
     max-width: 100%
     width: 100%
@@ -264,16 +270,16 @@ ul.primary-menu
     display: none!important
   .open-primary-menu-button
     display: block !important
-  .preview-profile-wrap
-    flex: 0 0 25%
-  .primary-menu
-    flex: 0 0 5.33333%
-    max-width: 5.33333%
+  /*.preview-profile-wrap*/
+    /*flex: 0 0 25%*/
+  /*.primary-menu*/
+    /*flex: 0 0 5.33333%*/
+    /*max-width: 5.33333%*/
     .title
       display: none
-  .other-page
-    flex: 0 0 94.66666%
-    max-width: 94.66666%
+  /*.other-page*/
+    /*flex: 0 0 94.66666%*/
+    /*max-width: 94.66666%*/
 .primary-menu-button
   position: absolute
   top: rem-calc(25)
@@ -286,6 +292,36 @@ ul.primary-menu
     .note-inner
       width: 100%
       padding: 0 2px
+      position: relative
+      &[data-count="3"]
+        &:before
+          display: block
+          content: ''
+          position: absolute
+          left: -2px
+          top: -4px
+          right: 19px
+          bottom: 0
+          background-color: #808062
+        &:after
+          display: block
+          content: ''
+          position: absolute
+          left: 0px
+          top: 2px
+          right: 17px
+          bottom: -2px
+          background-color: #AAAA83
+      &[data-count="2"]
+        &:after
+          display: block
+          content: ''
+          position: absolute
+          left: 0px
+          top: 2px
+          right: 18px
+          bottom: -2px
+          background-color: #AAAA83
       &:hover
         .note
           -webkit-box-shadow: -2px 9px 5px -1px rgba(0, 0, 0, 0.5)
@@ -301,6 +337,8 @@ ul.primary-menu
         background-color: #E2E2AE
         padding-top: 17px
         position: relative
+        top: 4px
+        z-index: 1
         &:before
           width: 0
           height: 0
@@ -722,12 +760,12 @@ section.ordered-list
     flex: 0 0 91.66666% !important
     max-width: 91.66666% !important
 
-.page-wrap
-  margin-top: 45px
+/*.page-wrap*/
+  /*margin-top: 45px*/
 .ordered-list-closed.primary-closed
-  .main-block
-    flex: 0 0 91.66667% !important
-    max-width: 91.66667% !important
+  /*.main-block*/
+    /*flex: 0 0 91.66667% !important*/
+    /*max-width: 91.66667% !important*/
 
 .margin-none
   margin-left: 0 !important
@@ -753,4 +791,117 @@ ul.socials
       img
         width: 60%
         margin: 0 auto
+
+.user-profile-wrap
+  background-color: #EDF0F1
+  min-width: 353px
+  /*min-height: 290px*/
+  position: absolute
+  right: -80px
+  top: 95px
+  z-index: 11
+  padding: 1rem
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5)
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5)
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5)
+  .user-profile
+    width: 100%
+    position: relative
+    &:before
+      display: block
+      content: ''
+      position: absolute
+      top: -31px
+      right: 80px
+      width: 0
+      height: 0
+      border-style: solid
+      border-width: 0 15px 15px 15px
+      border-color: transparent transparent rgba(0, 0, 0, 0.2) transparent
+    &:after
+      display: block
+      content: ''
+      position: absolute
+      top: -31px
+      right: 82px
+      width: 0
+      height: 0
+      border-style: solid
+      border-width: 0 15px 15px 15px
+      border-color: transparent transparent #edf0f1 transparent
+
+  .avatar
+    position: relative
+    a
+      display: inline-block !important
+      position: absolute !important
+      left: 0
+      right: 0
+      bottom: 0
+      line-height: rem-calc(25)
+      font:
+        size: rem-calc(14)
+        weight: 400
+        family: 'Fira Sans', sans-serif
+      color: #EDF0F1
+      background-color: rgba(40, 127, 184, .8)
+      text-transform: uppercase
+      height: 25px !important
+      text-align: center
+  ul.links
+    margin-left: 0
+    height: 14px
+    margin-top: 12px
+    li
+      list-style: none
+      width: 50%
+      display: inline-block
+      &:first-of-type
+        border-right: 1px solid #2E3E51
+      a
+        text-align: center
+        font:
+          size: rem-calc(12)
+          family: 'Fira Sans', sans-serif
+          weight: 400
+        line-height: rem-calc(14.4)
+        color: #D03F4A
+  .credits
+    +my_vertical_align
+    height: 35px
+    width: 100px
+    background-color: #D03F4A
+    font:
+      size: rem-calc(20.42)
+      family: 'Fira Sans', sans-serif
+    line-height: rem-calc(35)
+    color: #EDF0F1
+    padding-left: 42px
+    padding-right: 10px
+    border-radius: 20px
+    right: -3px
+    position: relative
+    &:before
+      display: block
+      content: ''
+      background-image: url('<%=asset_path("UD-icon-diamond-white.svg")%>')
+      background-size: 100%
+      background-repeat: no-repeat
+      position: absolute
+      width: 16px
+      height: 16px
+      top: 9px
+      left: 12px
+  a.ud-more-credits
+    font:
+      size: rem-calc(24)
+      family: 'Fira Sans', sans-serif
+    line-height: rem-calc(49)
+    color: #EDF0F1
+    background-color: #D03F4A
+    height: 49px
+    text:
+      transform: uppercase
+      align: center
+
 

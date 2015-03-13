@@ -3,7 +3,7 @@
     .grid-content
       .grid-block.margin-none
         .grid-content.large-4.medium-4.collapse.note-wrap
-          .note-inner
+          .note-inner data-count="3"
             .note
               .grid-block.info-block
                 .grid-content
@@ -28,7 +28,7 @@
                             a Dismiss
 
         .grid-content.large-4.medium-4.collapse.note-wrap
-          .note-inner
+          .note-inner data-count="2"
             .note
               .grid-block.info-block
                 .grid-content
@@ -53,7 +53,7 @@
                             a Dismiss
 
         .grid-content.large-4.medium-4.collapse.note-wrap
-          .note-inner
+          .note-inner  data-count="1"
             .note
               .grid-block.info-block
                 .grid-content
@@ -82,15 +82,22 @@
 .grid-block.shrink
   .grid-content
     .title-head.grey
-      .grid-content
+      .grid-content.grid-visible
         .wrap
           h4 your best match
           .items-menu
-            =image_tag "UD-icon-sub menu.svg"
+            a
+              =image_tag "UD-icon-sub menu.svg"
+            .menu-wrap.close-menu
+              .menu
+                .group
+                  .title
+                    strong Display options:
+
 
 .grid-content.white-grey.best-match-wrap
   .grid-content
-    .grid-block.small-up-2.medium-up-4.large-up-3
+    .grid-block.small-up-2.medium-up-4.large-up-3.your-best-match-wrap
       .grid-content.collapse.preview-profile-wrap
         .preview-profile.the-best-match
           .image style="background: url('#{asset_path("zlata-3.jpg")}')no-repeat center center;"

@@ -10,82 +10,173 @@ html lang="en"
 
 body
   .grid-frame
-    .grid-block
-      .grid-block.collapse.large-3.medium-1.primary-menu.black.noscroll
-        =render partial: "partials/main_menu"
-      .grid-block.large-9.medium-11.small-12.vertical.other-page
-        .gird-block
-          .grid-block.collapse.shrink
-            .menu-bar.primary
-              .primary-menu-button.close-primary-menu-button.hide-for-medium-only
-                =image_tag "UD-icon-close.svg"
-              .primary-menu-button.open-primary-menu-button.show-for-medium-only
-                =image_tag "UD-icon-menu.svg"
-              .header-navigation
-                section
-                  li.search
-                    a
-                      =image_tag "UD-icon-search.svg"
-                  li.notification
-                    a
-                      div
-                        =image_tag "UD-icon-notifications.svg"
-                        .round-count data-count="28"
-                  li.credits
-                    a
-                      div 2999
-                  li.profile-avatar
-                    a
-                      .image style="background: url('#{asset_path("user_avatar_default.png")}')no-repeat center center;"
-                  li.profile-info
-                    div
-                      p welcome back,
-                      strong Gregory
-                      br
-                      a Sign out
+    .medium-grid-block.collapse.medium-1.large-3.xlarge-2.vertical.panel.panel-left.primary-menu.black.main-menu
+      .grid-content
+        .grid-block
+          .grid-content.noscroll
+            .grid-block
+              =render partial: "partials/main_menu"
+          .grid-content.noscroll
+            .socials-wrap
+              ul.socials
+                li
+                  a
+                    =image_tag "UD-social-facebook.png"
+                li
+                  a
+                    =image_tag "UD-social-twitter.png"
+                li
+                  a
+                    =image_tag "UD-social-gplus.png"
+                li
+                  a
+                    =image_tag "UD-social-insta.png"
+                li
+                  a
+                    =image_tag "UD-social-In.png"
+    .grid-block.collapse.medium-11.large-9.vertical.other-page.page-wrap
+      .shrink.collapse.grid-content.grid-visible.noscroll
+        .menu-bar.primary.grid-visible
+          .primary-menu-button.close-primary-menu-button.hide-for-medium-only
+            =image_tag "UD-icon-close.svg"
+          .primary-menu-button.open-primary-menu-button.show-for-medium-only
+            =image_tag "UD-icon-menu.svg"
+          .header-navigation
+            section
+              li.search
+                a
+                  =image_tag "UD-icon-search.svg"
+              li.notification
+                a
+                  div
+                    =image_tag "UD-icon-notifications.svg"
+                    .round-count data-count="28"
+              li.credits
+                a
+                  div 2999
+              li.profile-avatar.close
+                a
+                  .image style="background: url('#{asset_path("user_avatar_default.png")}')no-repeat center center;"
+                =render partial: "partials/user_profile"
+              li.profile-info
+                div
+                  p welcome back,
+                  strong Gregory
+                  br
+                  a Sign out
 
-
-
-        .grid-block.page-wrap
-
-          .grid-content.large-9.medium-11.small-12.vertical.main-block
+      .grid-block
+        .grid-block.small-12.medium-11.large-9.vertical.main-block.main-block-wrap
+          .grid-content
             =render partial: "partials/main_block"
+        .collapse.grid-content.medium-1.large-3.show-for-medium.ordered-list-wrap
+          .title-head.grey
+            .grid-content.grid-visible
+              .wrap
+                h4.hide-for-medium-only friends online
+                .items-menu
+                  a
+                    =image_tag "UD-icon-sub menu.svg"
+                  .menu-wrap.close-menu
+                    .menu
+                      .group
+                        .title
+                          strong Display options:
+                        .options
+                          .option
+                            .label
+                              .icon
+                                =image_tag "UD-icon-sort.svg"
+                              span
+                                |Sort by
+                          .option
+                            .label
+                              .icon
+                                =image_tag "UD-icon-fullscreen.svg"
+                              span
+                                |View mode
+                            .input
+                              select.view-mode
+                                option value="fullscreen" Fullscreen
+                                option value="minimize" Minimize
+          /div style="background:red;min-height:3000px;"
+          =render partial: "partials/ordered_people_list"
+      .shrink.collapse.grid-content
+        h3 footer
 
-          .grid-content.collapse.large-3.medium-1.ordered-list-wrapper.grid-visible.white-grey
-            .full-width-panel
-              .title-head.grey
-                .grid-content.grid-visible
-                  .wrap
-                    h4.hide-for-medium-only friends online
-                    .items-menu
-                      a
-                        =image_tag "UD-icon-sub menu.svg"
-                      .menu-wrap.close-menu
-                        .menu
-                          .group
-                            .title
-                              strong Display options:
-                            .options
-                              .option
-                                .label
-                                  .icon
-                                    =image_tag "UD-icon-sort.svg"
-                                  span
-                                    |Sort by
-                              .option
-                                .label
-                                  .icon
-                                    =image_tag "UD-icon-fullscreen.svg"
-                                  span
-                                    |View mode
-                                .input
-                                  select.view-mode
-                                    option value="fullscreen" Fullscreen
-                                    option value="minimize" Minimize
-              .grid-block
-                .grid-content
-                  =render partial: "partials/ordered_people_list"
-      .gird-block.footer
-        .grid-block.collapse.shrink
-          footer
-
+      /.grid-block.large-9.medium-11.small-12.vertical.other-page
+      /  .gird-block
+      /    .grid-block.collapse.shrink
+      /      .menu-bar.primary
+      /        .primary-menu-button.close-primary-menu-button.hide-for-medium-only
+      /          =image_tag "UD-icon-close.svg"
+      /        .primary-menu-button.open-primary-menu-button.show-for-medium-only
+      /          =image_tag "UD-icon-menu.svg"
+      /        .header-navigation
+      /          section
+      /            li.search
+      /              a
+      /                =image_tag "UD-icon-search.svg"
+      /            li.notification
+      /              a
+      /                div
+      /                  =image_tag "UD-icon-notifications.svg"
+      /                  .round-count data-count="28"
+      /            li.credits
+      /              a
+      /                div 2999
+      /            li.profile-avatar
+      /              a
+      /                .image style="background: url('#{asset_path("user_avatar_default.png")}')no-repeat center center;"
+      /            li.profile-info
+      /              div
+      /                p welcome back,
+      /                strong Gregory
+      /                br
+      /                a Sign out
+      /
+      /
+      /
+      /  .grid-block.page-wrap
+      /
+      /    .grid-content.large-9.medium-11.small-12.vertical.main-block
+      /      =render partial: "partials/main_block"
+      /
+      /    .grid-content.collapse.large-3.medium-1.ordered-list-wrapper.grid-visible.white-grey
+      /      .full-width-panel
+      /        .title-head.grey
+      /          .grid-content.grid-visible
+      /            .wrap
+      /              h4.hide-for-medium-only friends online
+      /              .items-menu
+      /                a
+      /                  =image_tag "UD-icon-sub menu.svg"
+      /                .menu-wrap.close-menu
+      /                  .menu
+      /                    .group
+      /                      .title
+      /                        strong Display options:
+      /                      .options
+      /                        .option
+      /                          .label
+      /                            .icon
+      /                              =image_tag "UD-icon-sort.svg"
+      /                            span
+      /                              |Sort by
+      /                        .option
+      /                          .label
+      /                            .icon
+      /                              =image_tag "UD-icon-fullscreen.svg"
+      /                            span
+      /                              |View mode
+      /                          .input
+      /                            select.view-mode
+      /                              option value="fullscreen" Fullscreen
+      /                              option value="minimize" Minimize
+      /        .grid-block
+      /          .grid-content
+      /            =render partial: "partials/ordered_people_list"
+      /.gird-block.footer
+      /  .grid-block.collapse.shrink
+      /    footer
+      /

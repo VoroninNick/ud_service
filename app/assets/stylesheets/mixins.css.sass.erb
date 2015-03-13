@@ -162,6 +162,13 @@
     transform: $transforms
     @content
 
+= font_mixin($size: rem-calc(18), $family: "'Fira Sans', sans-serif", $height: rem-calc(24))
+    font:
+        size: $size
+        family: $family
+    line-height: $height
+    @content
+
 // keyframes mixin
 =keyframes($name)
     @-webkit-keyframes #{$name}
