@@ -12,8 +12,7 @@ body
   .grid-frame
     .grid-block
       .grid-block.collapse.large-3.medium-1.primary-menu.black.noscroll
-        .full-width-panel
-          =render partial: "partials/main_menu"
+        =render partial: "partials/main_menu"
       .grid-block.large-9.medium-11.small-12.vertical.other-page
         .gird-block
           .grid-block.collapse.shrink
@@ -50,13 +49,12 @@ body
         .grid-block.page-wrap
 
           .grid-content.large-9.medium-11.small-12.vertical.main-block
-            .grid-content
-              =render partial: "partials/main_block"
+            =render partial: "partials/main_block"
 
           .grid-content.collapse.large-3.medium-1.ordered-list-wrapper.grid-visible.white-grey
             .full-width-panel
               .title-head.grey
-                .grid-content
+                .grid-content.grid-visible
                   .wrap
                     h4.hide-for-medium-only friends online
                     .items-menu
@@ -84,10 +82,10 @@ body
                                   select.view-mode
                                     option value="fullscreen" Fullscreen
                                     option value="minimize" Minimize
-
-
-
               .grid-block
                 .grid-content
                   =render partial: "partials/ordered_people_list"
+      .gird-block.footer
+        .grid-block.collapse.shrink
+          footer
 
