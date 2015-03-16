@@ -268,18 +268,44 @@ ul.primary-menu
 .primary-closed
   .close-primary-menu-button
     display: none!important
+
+  .logo-inner
+    width: 100%
+    height: 75px
+    .icon
+      height: 100%
+      width: 100%
+      img
+        height: 100%
+        max-width: none
+        width: auto
+        margin: 0 auto
+        display: block
+  .logo
+    .title
+      +element-invisible
+  ul.primary-menu
+    li
+      .pm-item
+        height: 100%
+        width: 100% !important
+        .icon
+          width: 100%
+          height: 100%
+          img
+            height: 100%
+            width: auto
+            display: block
+            margin: 0 auto
+        .title
+          +element-invisible
+  .socials-wrap
+    +element-invisible
+
   .open-primary-menu-button
     display: block !important
-  /*.preview-profile-wrap*/
-    /*flex: 0 0 25%*/
-  /*.primary-menu*/
-    /*flex: 0 0 5.33333%*/
-    /*max-width: 5.33333%*/
-    .title
-      display: none
-  /*.other-page*/
-    /*flex: 0 0 94.66666%*/
-    /*max-width: 94.66666%*/
+
+  .main-menu
 .primary-menu-button
   position: absolute
   top: rem-calc(25)
@@ -753,12 +779,21 @@ section.ordered-list
   +element-invisible
 
 .ordered-list-closed
-  .ordered-list-wrapper
-    flex: 0 0 8.33333% !important
-    max-width: 8.33333% !important
-  .other-page
-    flex: 0 0 91.66666% !important
-    max-width: 91.66666% !important
+  .ordered-list-wrap
+    h4, .information
+      +element-invisible
+  .wrap
+    height: 38px
+  .one-item
+    position: relative
+    .avatar
+      +my_horizontal_align
+  /*.ordered-list-wrapper*/
+    /*flex: 0 0 8.33333% !important*/
+    /*max-width: 8.33333% !important*/
+  /*.other-page*/
+    /*flex: 0 0 91.66666% !important*/
+    /*max-width: 91.66666% !important*/
 
 /*.page-wrap*/
   /*margin-top: 45px*/

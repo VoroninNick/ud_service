@@ -16,6 +16,9 @@ $(document).ready ->
   $closeButton.click ->
     $wrapper = $(this).closest('.grid-frame')
     $wrapper.addClass('primary-closed')
+#    if $wrapper.hasClass('ordered-list-closed')
+#      alert 'has ordered-list-closed'
+#    else
     $mainMenuWrap.removeClass('large-3')
     $mainMenuWrap.addClass('large-1')
     $pageWrap.removeClass('large-9')
